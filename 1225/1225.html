@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+  <title>bootstrap的網頁</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+   <script
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js">
+   </script>
+   </head>
+   <body style="padding-top:50px">
+   <!-- 輪播 -->
+   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- 輪播指示 -->
+	<ol class="carousel-indicators">
+	 <li data-bs-target="#myCarousel" data-bs-slide-to="0"
+	  class="active"></li>
+	 <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+	 <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+	</ol>
+	<!-- 輪播內容 -->
+	<div class="carousel-inner">
+	 <div class="carousel-item active">
+	   <img src="合歡山.jpg" class="d-blocek w-100" alt="合歡山">
+	   <div class="carousel-caption d-none d-md-block">
+	    <h5>合歡山</h5>
+	  </div>
+	 </div>
+     <div class="carousel-item">
+	   <img src="阿里山.jpg" class="d-blocek w-100" alt="阿里山">
+	   <div class="carousel-caption d-none d-md-block">
+	    <h5>阿里山</h5>
+	   </div>
+	 </div>
+	 <div class="carousel-item">
+	   <img src="玉山.jpg" class="d-blocek w-100" alt="玉山">
+	   <div class="carousel-caption d-none d-md-block">
+	    <h5>玉山</h5>
+	   </div>
+	 </div>
+	</div>
+	<!-- 輪播控制 -->
+	<a class="carousel-control-prev" href="#myCarousel"
+	  data-bs-slide="prev">
+	  <span class="carousel-control-prev-icon"></span>
+	  <span class="visually-hidden">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#myCarousel"
+	  data-bs-slide="next">
+	  <span class="carousel-control-next-icon"></span>
+	  <span class="visually-hidden">Next</span>
+	</a>
+	<nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+    <div class="container-fluid">
+	 <a class="navbar-brand" href="1225.html">人生樂趣</a>
+	 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+	  data-bs-target="#navbar1">
+	  <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbar1">
+	   <ul class="navbar-nav me-auto">
+	     <li class="nav-link dropdown">
+		  <a class="nav-link dropdown-toggle" href="#"
+		   data-bs-toggle="dropdown">男女穿搭</a>
+		  <div class="dropdown-menu">
+			<a class="dropdown-item" href="boy.html">男性</a>
+			<a class="dropdown-item" href="girl.html">女姓</a>
+		  </div>
+		 </li>
+		 <li class="nav-link dropdown">
+		  <a class="nav-link dropdown-toggle" href="#"
+		   data-bs-toggle="dropdown">電玩動漫</a>
+		  <div class="dropdown-menu">
+			<a class="dropdown-item" href="game.html">遊戲</a>
+			<a class="dropdown-item" href="cartoon.html">動漫</a>
+	      </div>
+	     </li>
+	    </ul>
+       <from class="d-flex">
+	   <input class="form-control me-2" type="search" placeholder="輸入關鍵詞">
+	   <button class="btn btn-outline-primary" type="submit">Search</button>
+	  </from>
+	 </div>
+	</div>
+   </nav>
+   <footer>
+	  <div class="container">
+	    <hr>              
+        <p>&copy; 請勿抄襲 &middot;<a href="#">隱私權政策</a>&middot;<a href="#">服務條款</a></p>
+		<p class="text-end"><a href="#">Back to top</a></p>
+      </div>
+    </footer> 	
+  </body>
+</html>
+    
